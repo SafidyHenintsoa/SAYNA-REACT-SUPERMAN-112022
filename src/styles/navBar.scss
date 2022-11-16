@@ -1,0 +1,32 @@
+.nav-link{
+    color:white;
+    font-size:22px ;
+  }
+  
+  .active{
+    font-weight:bolder ;
+    text-decoration: underline;
+    color:white !important;
+  }
+  
+  nav{
+   background-color: black !important;
+   .navbar-toggler{
+    background-color: white !important;
+   }
+  }
+
+  img{
+    width: 90px;
+  }
+  .bg-dark {
+    --bs-bg-opacity: 0;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+.nav-link:hover {
+  color: yellow;
+  font-weight: bold;
+}
+.navbar-brand:hover {
+  filter: brightness(0) saturate(100%) invert(84%) sepia(89%) saturate(6624%) hue-rotate(357deg) brightness(108%) contrast(102%);
+}
