@@ -37,7 +37,7 @@ function navBar() {
 
             <li className="nav-item">
               <NavLink to="MonCompt" className="nav-link">
-                MON COMPT
+                MON COMPTE
               </NavLink>
             </li>
           </ul>
